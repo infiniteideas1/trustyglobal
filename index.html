@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trusty Global - Empowering businesses through technology, delivery, and expert consultancy services in Nigeria">
+    <meta name="keywords" content="tech training, delivery services, business consultancy, Abuja, Nigeria">
+    <meta name="theme-color" content="#1B3B6F">
+    <meta property="og:title" content="Trusty Global - Empowering Through Technology & Services">
+    <meta property="og:description" content="Comprehensive solutions for tech training, delivery services, and business consultancy in Nigeria">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trustygloballimited.com">
+    <title>Trusty Global - Empowering Through Technology & Services</title>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="images/TrustyGlobal logo.png" as="image">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="logo">
+            <a href="#home" aria-label="Trusty Global Home">
+                <img src="images/TrustyGlobal logo.png" alt="Trusty Global Logo" width="45" height="45">
+                <span class="logo-text">Trusty Global</span>
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home" aria-current="page">Home</a></li>
+            <li class="services-dropdown">
+                <button class="dropdown-toggle" aria-expanded="false">
+                    Services <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="tech-services/">Trusty Tech</a></li>
+                    <li><a href="ride-services/">Trusty Ride</a></li>
+                    <li><a href="consultancy-services/">Trusty Consultancy</a></li>
+                </ul>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-slider">
+                <div class="slide active">
+                    <img src="images/s0.jpg" alt="Trusty Global Services">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Welcome to Trusty Global</h1>
+                        <p>Empowering businesses through technology, transportation, and expert consultancy</p>
+                        <a href="#services" class="cta-button">Explore Our Services</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/s1.jpg" alt="Trusty Global Services">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Expert Consultancy</h1>
+                        <p>Strategic solutions for your business growth and success</p>
+                        <a href="#services" class="cta-button">Our Solutions</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/s4.jpg" alt="Trusty Global Services">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Fast and Reliable Delivery</h1>
+                        <p>Fast and secure delivery services at your fingertips</p>
+                        <a href="#services" class="cta-button">Learn More</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/s3.jpg" alt="Trusty Global Services">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Training and Technology Solutions</h1>
+                        <p>Innovative tech solutions for modern businesses</p>
+                        <a href="#services" class="cta-button">Discover More</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/s2.jpg" alt="Trusty Global Services">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Professional Training</h1>
+                        <p>Expert-led training programs for career advancement</p>
+                        <a href="#services" class="cta-button">Start Learning</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/s5.jpg" alt="Trusty Global Services">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Global Reach</h1>
+                        <p>Connecting businesses worldwide with innovative solutions</p>
+                        <a href="#services" class="cta-button">Connect Now</a>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slide-indicators">
+                        <span class="indicator active"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                    </div>
+                    <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Trusty Tech</h3>
+                    <p>Comprehensive tech education including programming, web design, data analysis, and more. Build your future in technology.</p>
+                    <ul class="service-features">
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>Data Analysis</li>
+                        <li>Python Programming</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-truck-fast"></i>
+                    <h3>Trusty Ride</h3>
+                    <p>Efficient delivery services at your fingertips. Download our app and experience seamless delivery solutions.</p>
+                    <ul class="service-features">
+                        <li>Real-time Tracking</li>
+                        <li>Secure Deliveries</li>
+                        <li>Fast Service</li>
+                        <li>User-friendly App</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Trusty Consultancy</h3>
+                    <p>Expert business consultancy services to help your company grow and succeed in today's competitive market.</p>
+                    <ul class="service-features">
+                        <li>Auditing Services</li>
+                        <li>Company Registration</li>
+                        <li>Accounting Services</li>
+                        <li>Corporate Training</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-title" data-aos="fade-up">About Us</h2>
+                <p data-aos="fade-up">At Trusty Global, we're committed to providing comprehensive solutions that drive business growth and innovation. Our diverse range of services ensures that we can meet all your business needs under one roof.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+            <div class="contact-container">
+                <form class="contact-form" data-aos="fade-up" action="https://formsubmit.co/biz.infiniteideas@gmail.com" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+                    
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!-- Success Page -->
+                    <input type="hidden" name="_next" value="https://trustyglobal.vercel.app/success/">
+
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="tech">Trusty Tech</option>
+                        <option value="ride">Trusty Ride</option>
+                        <option value="consultancy">Trusty Consultancy</option>
+                    </select>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section id="map-section" class="location-section">
+            <h2 class="section-title" data-aos="fade-up">Our Location</h2>
+            <div class="location-container" data-aos="fade-up">
+                <div class="location-info">
+                    <div class="location-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Our Office</h3>
+                        <p>Garki, Abuja 900103, Federal Capital Territory</p>
+                        <div class="location-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Business Hours</h4>
+                                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p>Saturday: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+234 802 938 6373</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>info@trustygloballimited.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://www.google.com/maps/dir//Garki,+Abuja+900103,+Federal+Capital+Territory,+Nigeria" 
+                           target="_blank" 
+                           class="directions-btn">
+                            <i class="fas fa-directions"></i> Get Directions on Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-aos="fade-up">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-right testimonial-quote"></i>
+                            <p>"The consulting services provided by Trusty Global helped us streamline our processes and increase efficiency by 40%. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <!-- Add actual client photo here -->
+                                <img src="images/client1-photo.jpg" alt="Okpanachi David">
+                            </div>
+                            <div class="author-info">
+                                <h4>Okpanachi David</h4>
+                                <p>CEO, Davekings Nig. Ltd</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-right testimonial-quote"></i>
+                            <p>"Trusty Ride exceeded my expectations with prompt, professional service and seamless tracking, making my delivery experience stress-free and dependable."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <!-- Add actual client photo here -->
+                                <img src="images/client2-photo.jpg" alt="Bobby Sunday">
+                            </div>
+                            <div class="author-info">
+                                <h4>Bobby Sunday</h4>
+                                <p>Customer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-right testimonial-quote"></i>
+                            <p>"Trusty Tech offers clear, hands-on lessons that made learning ICT skills enjoyable. I've gained valuable knowledge in programming and web design! "</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <!-- Add actual client photo here -->
+                                <img src="images/client3-photo.jpg" alt="Ugwa Momento">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ugwa Momento</h4>
+                                <p>Web Design Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meet the Team Section -->
+        <section class="team" id="team">
+            <div class="container">
+                <h2 class="section-title">Meet The Team</h2>
+                <div class="team-grid">
+                    <div class="team-member" data-aos="fade-up">
+                        <div class="member-image">
+                            <img src="images/m0.jpg" alt="Team Member">
+                        </div>
+                        <div class="member-info">
+                            <h3>Onoja Precious Ikojo</h3>
+                            <p>Managing Director</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-image">
+                            <img src="images/m1.jpg" alt="Team Member">
+                        </div>
+                        <div class="member-info">
+                            <h3>Onoja Blessing</h3>
+                            <p>Head, Finance and Admin</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-image">
+                            <img src="images/m2.jpg" alt="Team Member">
+                        </div>
+                        <div class="member-info">
+                            <h3>Sule Isaac</h3>
+                            <p>Director, ICT Dept.</p>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/isaac-sule" target="blank"><i class="fab fa-linkedin"></i></a>
+                                <a href=https://x.com/isaacsule91><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member" data-aos="fade-up">
+                        <div class="member-image">
+                            <img src="images/m3.jpg" alt="Team Member">
+                        </div>
+                        <div class="member-info">
+                            <h3>Ibrahim Adakpa Friday</h3>
+                            <p>Director of Operations</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-image">
+                            <img src="images/m4.jpg" alt="Team Member">
+                        </div>
+                        <div class="member-info">
+                            <h3>Domo Godwin</h3>
+                            <p>Strategy and Business Development</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-image">
+                            <img src="images/m5.jpg" alt="Team Member">
+                        </div>
+                        <div class="member-info">
+                            <h3>Itodo Godwin Ateko</h3>
+                            <p>Head, Branding Communication</p>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/godwin-itodo" target="blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://x.com/Godwinitodo8" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="images/TrustyGlobal logo.png" alt="Trusty Global Logo">
+                    <span class="footer-logo-text">Trusty Global</span>
+                </div>
+                <p>Empowering businesses through innovative solutions</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Trusty Global. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/2348029386373" class="whatsapp-float" aria-label="Chat with us on WhatsApp" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span>Chat with us</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html> 
